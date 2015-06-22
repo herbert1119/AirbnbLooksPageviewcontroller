@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PageContentViewController.h"
+@interface ViewController : UIViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 
-@interface ViewController : UIViewController
+@property (nonatomic) UIPageViewController *pageViewController;
 
+@property (nonatomic) NSArray *pageTexts;
+@property (nonatomic) NSArray *pageImages;
+@property (nonatomic) NSArray *buttonColors;
 
 @end
 
