@@ -1,4 +1,6 @@
 # AirbnbLooksPageviewcontroller
+Please use Xcode 7.0 or above to open this project.
+
 This is an Airbnb looks UIPageViewController example.
 In the Airbnb app (iOS), there is a "Why Host?" section, which it may implement by using UIScrollView for better animation control.
 
